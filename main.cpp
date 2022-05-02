@@ -6,24 +6,24 @@ int main()
 {
 	//1234
 	//12.34
-	int a;
-	int b;
-	float c;
-	float d;
+	int Mygold;
+	int MyHp;
+	float Power;
+	float lux;
 
-	a = 1;
-	b = 2;
-	c = 3.1;
-	d = 4.1;
+	Mygold = 1;
+	MyHp = 2;
+	Power = 3.1f;
+	lux = 4.1f;
 
-	cout << a + b << endl;
-	cout << a - b << endl;
-	cout << a * b << endl;
-	cout << a / b << endl;
-	cout << c - d << endl;
-	cout << c + d << endl;
-	cout << c * d << endl;
-	cout << c / d << endl;
+	cout << Mygold + MyHp << endl;
+	cout << Mygold - MyHp << endl;
+	cout << Mygold * MyHp << endl;
+	cout << Mygold / MyHp << endl;
+	cout << Power - lux << endl;
+	cout << Power + lux << endl;
+	cout << Power * lux << endl;
+	cout << Power / lux << endl;
 
 	return 0;
 
